@@ -25,7 +25,7 @@
 .container .card {
   background-color: white;
   width: 400px;
-  height: 70vh;
+  height: 66vh;
   border-radius: 1.5rem;
   text-align: center;
   position: relative;
@@ -52,8 +52,8 @@
 
 .info {
   padding-top: 16rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid red;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.135);
 }
 
 .info .user-info {
@@ -69,20 +69,44 @@
 }
 
 .info .user-info .name {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .info .user-info .age {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   font-size: 1.3rem;
   opacity: 50%;
   margin-top: auto;
 }
 
 .info .user-country .country {
-  padding-top: 0.75rem;
+  padding-top: 0.5rem;
   opacity: 50%;
   font-size: 1.1rem;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.socials .num {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.socials .name {
+  padding-top: 0.25rem;
+  font-weight: normal;
+  font-size: 0.9rem;
+  opacity: 50%;
 }
 /*# sourceMappingURL=style.css.map */
